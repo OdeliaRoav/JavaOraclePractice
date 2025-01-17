@@ -1,22 +1,22 @@
 package oracle.awt.text;
 
-public class MemberVo {
+public class MemberVO {
 	private String id;
 	private String pwd;
-	
-	
-	public MemberVo() {
-		
+
+	public MemberVO() {
+
 	}
-	public MemberVo(String id, String pwd) {
+
+	public MemberVO(String id, String pwd) {
 		this.id = id;
 		this.pwd = pwd;
 	}
-	
+
 	public String getId() {
 		return id;
 	}
-	
+
 	public String getPwd() {
 		return pwd;
 	}
